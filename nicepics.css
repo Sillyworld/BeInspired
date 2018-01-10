@@ -1,0 +1,30 @@
+body {
+    background-image: url("https://picsum.photos/1920/1080/?random");
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color: black;
+    background-size: 100%
+}
+
+.block {
+    background-color: rgba(153, 204, 255, 0.2);
+    padding: 8px;
+    color:darkgray;
+    width: auto;
+    border-radius: 25px;
+    display:block;
+}
+
+div.block {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    right: 40%;
+}
+
+h1 {
+    font-size: 50px;
+}
